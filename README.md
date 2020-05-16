@@ -36,38 +36,24 @@ sudo reboot
 ```Bash
  sudo git clone https://github.com/UCTRONICS/UCTRONICS_LCD35_RPI.git
 ```
- ![EasyBehavior](https://github.com/UCTRONICS/pic/blob/master/gif/download.gif) 
 ### Step4: Come in the UCTRONICS_LCD35_RPI
 ```Bash
  cd UCTRONICS_LCD35_RPI
 ```
- ![EasyBehavior](https://github.com/UCTRONICS/pic/blob/master/gif/cd_uctronics_lcd35_rpi.gif) 
 ### Step5: Get run permissions
 ```Bash
- sudo chmod 777 UCTRONICS_LCD_backup
+ sudo chmod 777 -R ./
 ```
-```Bash
- sudo chmod 777 UCTRONICS_LCD35_install
-```
-```Bash
- sudo chmod 777 UCTRONICS_LCD_restore
-```
-```Bash
- sudo chmod 777 UCTRONICS_LCD_hdmi
- ```
- ![EasyBehavior](https://github.com/UCTRONICS/pic/blob/master/gif/change_permission.gif) 
  
 ### Step6: backup data
 ```Bash
  sudo ./UCTRONICS_LCD_backup
 ``` 
- ![EasyBehavior](https://github.com/UCTRONICS/pic/blob/master/gif/backup.gif) 
  
 ### Step7: install the LCD35 driver
 ```Bash
- sudo ./UCTRONICS_LCD35_install
+ sudo ./UCTRONICS_LCD35_rotation_180_install
 ``` 
- ![EasyBehavior](https://github.com/UCTRONICS/pic/blob/master/gif/install_lcd35.gif) 
  
  wait a while the system will be installed and restarted automatically.
  
@@ -204,13 +190,3 @@ For rotate 270 ：
             sudo chmod +x UCTRONICS_LCD35_rotation_270_install 
             sudo ./UCTRONICS_LCD35_rotation_270_install
 ```
-
-### Rotation =0
-![Alt text](https://github.com/UCTRONICS/pic/blob/master/LCD35_SPI_0.jpg)
-### Rotation =180
-![Alt text](https://github.com/UCTRONICS/pic/blob/master/LCD35_SPI_180.jpg)
-
-
-
-
-
